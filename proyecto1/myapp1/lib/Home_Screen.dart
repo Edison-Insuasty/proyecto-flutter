@@ -21,11 +21,11 @@ class _HomeScreenState extends State<HomeScreen> {
         Text("Contador:"),
         Text("$contador"),
       ])),
-      floatingActionButton: _fab(),
+      floatingActionButton: boton(),
     );
   }
 
-  Widget _fab() {
+  Widget boton() {
     return Row(
       children: [
         FloatingActionButton(
