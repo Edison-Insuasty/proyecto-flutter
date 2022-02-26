@@ -19,12 +19,12 @@ class _ListView2State extends State<ListView2> {
           title: Text('Operaciones matematicas 2'),
         ),
         body: Column(
-          children: [_crearInput(), _miboton()],
+          children: [_crearInput(), _miboton(), _milista()],
 
           //_milista(),
         ));
   }
-/*
+
   Widget _milista() {
     return ListView(
       children: [
@@ -81,7 +81,6 @@ class _ListView2State extends State<ListView2> {
           },
         )*/
   }
-  */
 
   Widget _crearInput() {
     return TextField(
