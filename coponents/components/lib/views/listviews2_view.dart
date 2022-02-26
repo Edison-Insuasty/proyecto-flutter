@@ -11,6 +11,9 @@ class _ListView2State extends State<ListView2> {
   final num1 = 1;
 
   final num2 = 2;
+  final _user = TextEditingController();
+  //final _pass = TextEditingController();
+  String usuario = '';
 
   @override
   Widget build(BuildContext context) {
@@ -19,13 +22,17 @@ class _ListView2State extends State<ListView2> {
           title: Text('Operaciones matematicas 2'),
         ),
         body: Column(
-          children: [_crearInput(), _miboton(), _milista()],
+          children: [
+            _crearInput(),
+            _miboton(),
+            //_milista(),
+          ],
 
           //_milista(),
         ));
   }
 
-  Widget _milista() {
+/*  Widget _milista() {
     return ListView(
       children: [
         ListTile(
@@ -81,9 +88,11 @@ class _ListView2State extends State<ListView2> {
           },
         )*/
   }
+  */
 
   Widget _crearInput() {
     return TextField(
+      controller: _user,
       textCapitalization: TextCapitalization.sentences,
       decoration: InputDecoration(
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
@@ -99,8 +108,18 @@ class _ListView2State extends State<ListView2> {
     return RaisedButton(
       child: Text('Ir a pagina 1'),
       onPressed: () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => ListView1()));
+        usuario = _user.text;
+        if (usuario == '1087960740') {
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => ListView1()));
+        } else {
+          return showDialog(
+            context: context,
+            builder: (context) {
+              return AlertDialog(content: Text('Usuasrio incorrecto'));
+            },
+          );
+        }
       },
     );
   }
