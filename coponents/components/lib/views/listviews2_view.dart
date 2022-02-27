@@ -97,8 +97,8 @@ class _ListView2State extends State<ListView2> {
       decoration: InputDecoration(
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
         hintText: "Nombre de usuario",
-        labelText: "Nombre ",
-        helperText: "Debes solo ingresar tu username",
+        //labelText: "Nombre ",
+       // helperText: "Debes solo ingresar tu username",
         suffixIcon: Icon(Icons.accessibility),
       ),
     );

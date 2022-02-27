@@ -1,3 +1,4 @@
+import 'package:clinicaedisoninsuasty/views/calendario.dart';
 import 'package:clinicaedisoninsuasty/views/cita1.dart';
 import 'package:clinicaedisoninsuasty/views/cita2.dart';
 import 'package:clinicaedisoninsuasty/views/cita3.dart';
@@ -46,6 +47,15 @@ class _CitaState extends State<Citas> {
           onTap: () {
             Navigator.push(
                 context, MaterialPageRoute(builder: (context) => Cita3()));
+          },
+        ),
+        Divider(),
+        ListTile(
+          title: Text('Calendario'),
+          trailing: Icon(Icons.calendar_today),
+          onTap: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => Calendario()));
           },
         ),
         Divider()
