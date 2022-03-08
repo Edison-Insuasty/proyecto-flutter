@@ -1,4 +1,4 @@
-import 'package:clinicaedisoninsuasty/views/login.dart';
+import 'package:clinicaedisoninsuasty/exports/exportar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,9 +9,18 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    var materialApp = MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Inicio de sesion',
-        home: Login());
+        initialRoute: 'Login',
+        routes: {
+          'Login': (BuildContext context) => Login(),
+          'Menu': (BuildContext context) => Menu(),
+          'Datos': (BuildContext context) => Datos(),
+          'Tratamientos': (BuildContext context) => Tratamiento(),
+          'Citas': (BuildContext context) => Citas(),
+          'Pagos': (BuildContext context) => Pagos(),
+        });
+    return materialApp;
   }
 }

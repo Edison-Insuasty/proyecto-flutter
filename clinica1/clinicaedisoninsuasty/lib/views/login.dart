@@ -40,8 +40,6 @@ class _LoginState extends State<Login> {
       decoration: InputDecoration(
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
         hintText: "Nombre de usuario",
-        //labelText: "Nombre ",
-        //helperText: "Debes solo ingresar tu username",
         suffixIcon: Icon(Icons.account_circle),
       ),
     );
@@ -54,8 +52,6 @@ class _LoginState extends State<Login> {
       decoration: InputDecoration(
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
         hintText: "password",
-        //labelText: "Nombre ",
-        //helperText: "Debes solo ingresar tu username",
         suffixIcon: Icon(Icons.fingerprint),
       ),
     );
