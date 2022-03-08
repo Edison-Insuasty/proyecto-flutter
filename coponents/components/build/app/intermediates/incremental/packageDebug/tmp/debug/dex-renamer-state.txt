@@ -1,4 +1,0 @@
-#Sat Feb 26 12:03:16 COT 2022
-base.0=C\:\\Users\\vicen\\OneDrive\\Escritorio\\clon11\\coponents\\components\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
