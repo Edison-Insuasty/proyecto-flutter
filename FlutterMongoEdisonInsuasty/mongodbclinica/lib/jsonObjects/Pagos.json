@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6230f34958ec002237556b9c"
+  },
+  "Nombre del tratamiento": "Corona sobre implantes dentales",
+  "Fecha": "26-01-2022",
+  "Medio de pago": "Tarjeta",
+  "Valor": "280.000 pesos"
+},{
+  "_id": {
+    "$oid": "6230f34958ec002237556b9d"
+  },
+  "Nombre del tratamiento": "Reconstruccion dental",
+  "Fecha": "10-10-2021",
+  "Medio de pago": "Efectivo",
+  "Valor": "500.000 pesos"
+},{
+  "_id": {
+    "$oid": "6230f34958ec002237556b9e"
+  },
+  "Nombre del tratamiento": "Blanqueamineto dental",
+  "Fecha": "20-02-2021",
+  "Medio de pago": "Efectivo",
+  "Valor": "350.000 pesos"
+}]

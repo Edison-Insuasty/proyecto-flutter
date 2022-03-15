@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6230f8f758ec002237556ba2"
+  },
+  "nombre del servicio": "odontologia general",
+  "Descripcion": "En este servicio se solucionan los problemas primarios relacionados con la boca, los dientes y otras estructuras relacionadas"
+},{
+  "_id": {
+    "$oid": "6230f8f758ec002237556ba3"
+  },
+  "nombre": "Odontología Preventiva",
+  "Descripcion": "La odontología preventiva evita y previene la aparición de diferentes enfermedades que afectan el sistema bucodentario y cuya causa principal es la placa bacteriana"
+},{
+  "_id": {
+    "$oid": "6230f8f758ec002237556ba4"
+  },
+  "nombre": "Odontología Estética",
+  "Descripcion": "En la odontología estética se corrigen los defectos de simetría, color y posición de los dientes a través de diversos procedimientos técnicos"
+}]

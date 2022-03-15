@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6230ee3858ec002237556b8e"
+  },
+  "nombre": "clorhexidina",
+  "tratamiento": "controlar la placa y la gingivitis",
+  "nota": "aumento de sarro en los dientes"
+},{
+  "_id": {
+    "$oid": "6230ee3858ec002237556b8f"
+  },
+  "nombre": "flúor",
+  "tratamiento": "prevenir la caries dental",
+  "nota": "No debes tomar suplementos de calcio, magnesio o hierro mientras tomas flúor"
+},{
+  "_id": {
+    "$oid": "6230ee3858ec002237556b90"
+  },
+  "nombre": "tetraciclina",
+  "tratamiento": "Medicamento para la boca seca",
+  "nota": "se puede utilizar solo o en combinación con una cirugía u otras terapias"
+}]

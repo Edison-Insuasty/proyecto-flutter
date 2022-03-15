@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6230e72f58ec002237556b79"
+  },
+  "Nombre del tratamiento": "Coronas sobre implantes dentales",
+  "Fecha": "25-01-2022",
+  "Observacion": "Se instalo una corona hecha a la medida sobre el diente perdido"
+},{
+  "_id": {
+    "$oid": "6230e72f58ec002237556b7a"
+  },
+  "Nombre del tratamiento": "Reconstruccion dental",
+  "Fecha": "12-10-2021",
+  "Observacion": "Se hace una reconstriccion con una resina biocompatible que se pegará a la parte del diente sana y el odontólogo dará forma al nuevo diente para que el paciente recupere las funciones necesarias."
+},{
+  "_id": {
+    "$oid": "6230e72f58ec002237556b7b"
+  },
+  "Nombre del tratamiento": "Blanqueamiento dental",
+  "Fecha": "20-02-2021",
+  "Observacion": "Se quitan todas las manchas dentales provocadas por causas naturales"
+}]
