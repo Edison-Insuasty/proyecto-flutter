@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
+class MisContactos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Material App Bar'),
+          title: Text('Mis contactos'),
         ),
         body: Center(
           child: Container(
-            child: Text('Hello World'),
+            child: Text('Te encuentras en la pagina mis contactos',
+                style: TextStyle(fontFamily: "rubi", fontSize: 40)),
           ),
         ),
       ),
